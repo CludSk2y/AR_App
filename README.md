@@ -1,28 +1,33 @@
-❄️ AR Froid Mobile App
-Professional Digital Catalog & Technician Connect Platform for Cooling & AC Industries
 
-📖 Overview
-AR Froid is a specialized mobile application designed to revolutionize product catalog presentation and field support for cooling and air conditioning companies. By combining a high-performance digital product showcase, instant technical PDF access, and direct communication channels, the platform seamlessly connects clients, field technicians, and businesses.
+# ❄️ AR Froid Mobile App
+**Professional Digital Catalog & Technician Connect Platform for Cooling & AC Industries**
 
-✨ Key Features
-📱 Centralized Digital Catalog: Smooth product lists optimized specifically for mobile users.
+## 📖 Overview
 
-📄 Technical Document Management: Integrated PDF viewer to consult manuals and data sheets (Document.js, PdfViewerScreen.js).
+**AR Froid** is a specialized mobile application designed to revolutionize product catalog presentation and field support for cooling and air conditioning companies. By combining a high-performance digital product showcase, instant technical PDF access, and direct communication channels, the platform seamlessly connects clients, field technicians, and businesses.
 
-💬 WhatsApp & Support Integration: Direct communication channels backed by dedicated support screens (supportController.js, SupportScreen.js).
+---
 
-⚡ RESTful Architecture: A robust backend structure based on the MVC (Model-View-Controller) design pattern using Express and Sequelize.
+## ✨ Key Features
 
-🛠️ Tech Stack
-Backend: Node.js, Express.js, Sequelize ORM, SQL (MySQL / PostgreSQL)
+* **📱 Centralized Digital Catalog:** Smooth product lists optimized specifically for mobile users.
+* **📄 Technical Document Management:** Integrated PDF viewer to consult manuals and data sheets (`Document.js`, `PdfViewerScreen.js`).
+* **💬 WhatsApp & Support Integration:** Direct communication channels backed by dedicated support screens (`supportController.js`, `SupportScreen.js`).
+* **⚡ RESTful Architecture:** A robust backend structure based on the MVC (Model-View-Controller) design pattern using Express and Sequelize.
 
-Mobile Frontend: React Native (Expo), JavaScript, Axios
+---
 
-Tools & Version Control: Git, GitHub, Postman
+## 🛠️ Tech Stack
 
-📁 Project Architecture (Based on VS Code Structure)
+* **Backend:** Node.js, Express.js, Sequelize ORM, SQL (MySQL / PostgreSQL)
+* **Mobile Frontend:** React Native (Expo), JavaScript, Axios
+* **Tools & Version Control:** Git, GitHub, Postman
 
-Plaintext
+---
+
+## 📁 Project Architecture (Based on VS Code Structure)
+
+```text
 ar-froid-project/
 ├── backend/
 │   ├── src/
@@ -71,26 +76,26 @@ ar-froid-project/
     ├── .gitignore
     ├── package-lock.json
     └── package.json
-    
+
 🚀 Getting Started Guide
-1. Clone the Repository
-Bash
-git clone https://github.com/your-username/ar-froid-project.git
-cd ar-froid-project
-2. Backend Setup
+1. Backend Setup
+Navigate to the backend folder, install dependencies, and run the server:
+
 Bash
 cd backend
 npm install
-Run the development server:
-Bash
 npm run dev
-3. Frontend (Mobile) Setup
+
+2. Frontend (Mobile) Setup
+Open a new terminal window, navigate to the frontend folder, install dependencies, and start the app:
+
 Bash
-cd ../frontend
+cd frontend
 npm install
 npx expo start
-🤝 Contribution
+
+🤝 Contribution 
 Contributions, issues, and feature requests are always welcome!
 
 📝 License
-This project is licensed under the MIT License.
+by Kaoutar Kham
