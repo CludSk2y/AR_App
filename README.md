@@ -21,6 +21,7 @@ Mobile Frontend: React Native (Expo), JavaScript, Axios
 Tools & Version Control: Git, GitHub, Postman
 
 📁 Project Architecture (Based on VS Code Structure)
+
 Plaintext
 ar-froid-project/
 ├── backend/
@@ -70,6 +71,7 @@ ar-froid-project/
     ├── .gitignore
     ├── package-lock.json
     └── package.json
+    
 🚀 Getting Started Guide
 1. Clone the Repository
 Bash
@@ -79,10 +81,7 @@ cd ar-froid-project
 Bash
 cd backend
 npm install
-Create a .env file inside the backend/ directory to configure your environment variables and database connection.
-
 Run the development server:
-
 Bash
 npm run dev
 3. Frontend (Mobile) Setup
